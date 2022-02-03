@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- favicon use  -->
+    <link rel="shortcut icon" href="./icons/image 12.png" type="image/x-icon">
+    <!-- tailwind css cdn -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="sm:flex sm:justify-around sm:items-center sm:py-4 bg-yellow-100">
+        <div class="logo">
+            <img class="w-64" src="./icons/logo.png" alt="">
+        </div>
+        <div class="nav-item flex gap-4">
+            <div class="nav-single-item"><a href="#home" class="font-bold ">Home</a></div>
+            <div class="nav-single-item"><a href="#product" class="font-bold ">Product</a></div>
+            <div class="nav-single-item"><a href="#middle" class="font-bold ">Middle</a></div>
+            <div class="nav-single-item"><a href="#about" class="font-bold ">About</a></div>
+        </div>
+    </nav>
+    <header class="bg-yellow-50" id="home">
+        <!-- header section  -->
+        <section class="md:flex justify-around items-center p-4">
+            <div class="text">
+                <h1 class="text-6xl uppercase"><span class="text-yellow-500">Be the penguins</span> <br> Of winter </h1>
+                <p class="py-4 w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, assumenda?</p>
+                <button class="bg-green-600 flex items-center px-4 py-2 rounded-2xl">
+                    <img class="w-8" src="./icons/shopping-cart.png" alt="">
+                    <span class="text-white">Buy Now</span>
+                </button>
+            </div>
+            <div class="header-image">
+                <img src="./images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+
+    <!-- product  -->
+    <section id="product">
+        <h1 class="text-7xl font-bold text-center p-2">All Product</h1>
+        <!-- woman jacket  -->
+        <section class="jacket">
+            <h1 class="text-5xl uppercase pl-8 py-2 font-bold">woman jacket</h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4">
+                <div class="single-product p-4">
+                    <div class="image bg-gray-200 rounded-2xl p-4">
+                        <img class="h-64 mx-auto" src="./images/jacket-1.png" alt="">
+                    </div>
+                    <div class="single-product-text">
+                        <h3 class="text-4xl font-bold">Yellow Coat Jacket</h3>
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, excepturi.
+                        </p>
+                        <div class="flex justify-around">
+                            <div class="text-3xl font-bold text-yellow-500">$234</div>
+                            <button class="bg-green-600 flex items-center px-4 py-2 rounded-2xl">
+                                <img class="w-8" src="./icons/shopping-cart.png" alt="">
+                                <span class="text-white">Buy Now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-product p-4">
+                    <div class="image bg-gray-200 rounded-2xl p-4">
+                        <img class="h-64 mx-auto" src="./images/jacket-2.png" alt="">
+                    </div>
+                    <div class="single-product-text">
+                        <h3 class="text-4xl font-bold">Yellow Coat Jacket</h3>
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, excepturi.
+                        </p>
+                        <div class="flex justify-around">
+                            <div class="text-3xl font-bold text-yellow-500">$234</div>
+                            <button class="bg-green-600 flex items-center px-4 py-2 rounded-2xl">
+                                <img class="w-8" src="./icons/shopping-cart.png" alt="">
+                                <span class="text-white">Buy Now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-product p-4">
+                    <div class="image bg-gray-200 rounded-2xl p-4">
+                        <img class="h-64 mx-auto" src="./images/jacket-3.png" alt="">
+                    </div>
+                    <div class="single-product-text">
+                        <h3 class="text-4xl font-bold">Yellow Coat Jacket</h3>
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, excepturi.
+                        </p>
+                        <div class="flex justify-around">
+                            <div class="text-3xl font-bold text-yellow-500">$234</div>
+                            <button class="bg-green-600 flex items-center px-4 py-2 rounded-2xl">
+                                <img class="w-8" src="./icons/shopping-cart.png" alt="">
+                                <span class="text-white">Buy Now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Man jacket  -->
+        <section class="jacket">
+            <h1 class="text-5xl uppercase pl-8 py-2 font-bold">man jacket</h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4">
+                <div class="single-product p-4">
+                    <div class="image bg-gray-200 rounded-2xl p-4">
+                        <img class="h-64 mx-auto" src="./images/jacket-4.png" alt="">
+                    </div>
+                    <div class="single-product-text">
+                        <h3 class="text-4xl font-bold">Yellow Coat Jacket</h3>
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, excepturi.
+                        </p>
+                        <div class="flex justify-around">
+                            <div class="text-3xl font-bold text-yellow-500">$234</div>
+                            <button class="bg-green-600 flex items-center px-4 py-2 rounded-2xl">
+                                <img class="w-8" src="./icons/shopping-cart.png" alt="">
+                                <span class="text-white">Buy Now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-product p-4">
+                    <div class="image bg-gray-200 rounded-2xl p-4">
+                        <img class="h-64 mx-auto" src="./images/jacket-5.png" alt="">
+                    </div>
+                    <div class="single-product-text">
+                        <h3 class="text-4xl font-bold">Yellow Coat Jacket</h3>
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, excepturi.
+                        </p>
+                        <div class="flex justify-around">
+                            <div class="text-3xl font-bold text-yellow-500">$234</div>
+                            <button class="bg-green-600 flex items-center px-4 py-2 rounded-2xl">
+                                <img class="w-8" src="./icons/shopping-cart.png" alt="">
+                                <span class="text-white">Buy Now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-product p-4">
+                    <div class="image bg-gray-200 rounded-2xl p-4">
+                        <img class="h-64 mx-auto" src="./images/jacket-6.png" alt="">
+                    </div>
+                    <div class="single-product-text">
+                        <h3 class="text-4xl font-bold">Yellow Coat Jacket</h3>
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, excepturi.
+                        </p>
+                        <div class="flex justify-around">
+                            <div class="text-3xl font-bold text-yellow-500">$234</div>
+                            <button class="bg-green-600 flex items-center px-4 py-2 rounded-2xl">
+                                <img class="w-8" src="./icons/shopping-cart.png" alt="">
+                                <span class="text-white">Buy Now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- middle section  -->
+    <section class="" id="middle">
+        <div class="text-6xl text-center font-bold py-4">Middle Section</div>
+        <div class="grid md:grid-cols-2 gap-4 p-4 items-center">
+            <div class="">
+                <div class="flex items-center py-4">
+                    <div>
+                        <img class="w-24" src="./icons/image 12.png" alt="">
+                    </div>
+                    <div class="pl-4">
+                        <h3 class="text-3xl">Find the Perfect Fit</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, ipsum!</p>
+                    </div>
+                </div>
+                <div class="flex items-center py-4">
+                    <div>
+                        <img class="w-24" src="./icons/image 12.png" alt="">
+                    </div>
+                    <div class="pl-4">
+                        <h3 class="text-3xl">Find the Perfect Fit</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, ipsum!</p>
+                    </div>
+                </div>
+                <div class="flex items-center py-4">
+                    <div>
+                        <img class="w-24" src="./icons/image 12.png" alt="">
+                    </div>
+                    <div class="pl-4">
+                        <h3 class="text-3xl">Find the Perfect Fit</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, ipsum!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100%">
+                <img width="100% mx-auto" src="./images/shopping.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer id="about">
+        <!-- About me  -->
+        <section id="#about">
+            <h1 class="text-6xl text-center font-bold py-8">About Me</h1>
+            <div class="md:flex items-center justify-around">
+                <div class="pl-40 pr-24">
+                    <img class="w-full p-12" src="./images/image.png" alt="">
+                </div>
+                <div class="ml-4">
+                    <h1 class="text-6xl font-extrabold">Hi, <br> I'm <span class="text-yellow-500">Atiqur
+                            Rahman.</span></h1>
+                    <h3 class="text-4xl font-bold py-2">I am a MERN stack developer.</h3>
+                    <h5 class="text-2xl">I am 22 years old. I am from bangladesh. I am studying at Begum Rokeya
+                        University, Rangpur.</h5>
+                    <button class="pr-4 pt-4"><a href="https://github.com/ab-atiq" target="_black"><i
+                                class="fab fa-github fa-2x"></i></a></button>
+                    <button class="pr-4 pt-4"><a href="https://www.facebook.com/md.atiqur.927/" target="_black"><i
+                                class="fab fa-facebook fa-2x"></i></a></button>
+                    <button class="pr-4 pt-4"><a href="https://www.linkedin.com/in/abul-bashar-atiqur-rahman/"
+                            target="_black"><i class="fab fa-linkedin fa-2x"></i></a></button>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
