@@ -4,6 +4,6 @@
 ## How to use this project?
 1. Clone the project
 ```
-git clone https://github.com/ab-atiq/cbr-honda.git
+git clone https://github.com/ab-atiq/penguin-fashion-tailwind.git
 ```
 3. Open the "index.html" file in browser
